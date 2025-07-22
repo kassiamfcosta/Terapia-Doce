@@ -37,9 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Django REST Framework
+    'rest_framework',
+    'rest_framework.authtoken',  # Para autenticação por token
+    
+    # Apps do projeto
     'core',
     'clients',
-    'admins'
+    'admins',
 ]
 
 MIDDLEWARE = [
